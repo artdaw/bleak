@@ -1,0 +1,48 @@
+#footer {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    font-size: 0.75em;
+    line-height: 1.334em;
+    background: $color-gray-15;
+    color: $color-gray-50;
+    z-index: 20;
+    transition: all ease-out 0.4s;
+    transform: translate3d(0,0,0);
+    transform-style: preserve-3d;
+    opacity: 1;
+  
+    a {
+      color: $color-gray-65;
+      font-weight: 400;
+    }
+  
+    .credits {
+      text-align: center;
+      font-size: 0.75em;
+      line-height: 1.334em;
+      padding: 2.667em;
+      overflow: auto;
+  
+      span {
+        display: block;
+      }
+  
+      .credits-theme {
+        float: left;
+      }
+      .credits-software {
+        float: right;
+      }
+    }
+  }
+  
+  .loading {
+  
+    #footer {
+      transform: translate3d(0,100%,0);
+      opacity: 0;
+    }
+}
+  

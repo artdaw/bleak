@@ -28,7 +28,6 @@
  
   display: inline-block;
   text-decoration: inherit;
-  width: 1em;
   margin-right: .2em;
   text-align: center;
   /* opacity: .8; */
@@ -57,7 +56,10 @@
  
 .icon-arrow-left:before { content: '\e800'; } /* '' */
 .icon-arrow-right:before { content: '\e801'; } /* '' */
-.icon-menu:before { content: '\e803'; } /* '' */
+.icon-menu:before {
+  font-size: 2em;
+  content: '\e803'; 
+} /* '' */
 .icon-location:before { content: '\e805'; } /* '' */
 .icon-link:before { content: '\e806'; } /* '' */
 .icon-rss:before { content: '\e807'; } /* '' */
